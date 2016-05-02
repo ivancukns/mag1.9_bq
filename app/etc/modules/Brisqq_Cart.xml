@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Brisqq_Cart>
+	  <active>true</active>
+	  <codePool>local</codePool>
+    </Brisqq_Cart> 
+  </modules>
+</config> 

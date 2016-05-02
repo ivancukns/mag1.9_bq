@@ -1,0 +1,32 @@
+<config>
+    <modules>
+        <Brisqq_Cart>
+            <version>0.1.0</version>    <!-- Version of module  -->
+        </Brisqq_Cart>
+    </modules>
+    <frontend>
+        <routers>
+            <mymodule>
+                <use>standard</use>
+                <args>
+                    <module>Brisqq_Cart</module>
+                    <frontName>mymodule</frontName>
+                </args>
+            </mymodule>
+        </routers>
+         <layout>
+            <updates>
+                <mymodule module='Brisqq_Cart'>
+                    <file>mymodule.xml</file> <!-- Our layout file name-->
+                </mymodule>
+            </updates>
+         </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <mymodule>
+                <class>Brisqq_Cart_Block</class>
+            </mymodule>
+        </blocks>
+    </global>
+</config>

@@ -1,0 +1,17 @@
+
+
+  <layout version="0.1.0">
+  <default>
+  	    <reference name="head">        
+        <action method="addJs"><script>shipping.js</script></action>        
+    </reference>
+  </default>
+
+  <checkout_onepage_index>
+  <reference name="shipping_method">
+        <block name='content'>
+        <block type="mymodule/mymodule" name="test.somblock" template="test/smtesting.phtml"/>
+    </block>
+  </reference>
+  </checkout_onepage_index>
+ </layout>
